@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XJWViewController : UIViewController
+@interface XJWViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) NSArray *list;
 
 @end
